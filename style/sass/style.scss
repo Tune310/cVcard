@@ -1,0 +1,81 @@
+// Bourbon
+
+@import "bourbon/bourbon";
+
+// 
+
+.highlight {
+	font-size: 1em;
+    margin: .1em 0 .6em;
+    display: inline-block;
+    font-style: italic;
+    padding: 6px 10px;
+    background: #FAF46A;
+    color: #345;
+    color: rgba(0,0,0,.7);
+    border-radius: 4px;
+    line-height: 1;
+}
+
+header {
+	text-align: center;
+	width: 100%;
+	padding: 2em;
+}
+
+ul.nav {
+	@include display(flex);
+    @include justify-content(space-around);
+}
+
+.section-title span {
+	background: #fff;
+	position: relative;
+	// z-index 2;
+}
+
+.section-title:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: 3px;
+    width: 100%;
+    border-bottom: 4px solid #F4F6F7;
+}
+
+h2.section-title {
+	position: relative;
+}
+
+.center {
+	text-align: center;
+}
+
+@media screen and (min-width: 1400px) {
+	.container {
+		padding: 1em 3em;
+	}
+} 
+
+ul.filters {
+	@include display(flex);
+	@include justify-content(center);
+	list-style-type: none;
+	margin: 2em 0;
+}
+
+.filters .current a, .filters .current a:hover {
+    color: #fff;
+    background: #345;
+    border-color: transparent;
+}
+.filters li a {
+    color: #b8c7ca;
+    font-size: 11px;
+    letter-spacing: .1em;
+    margin: 0px 8px;
+    padding: 7px 12px;
+    border: 1px solid #DDE4E6;
+    border-radius: 4px;
+}

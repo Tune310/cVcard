@@ -16,5 +16,77 @@ header {
   padding: 2em; }
 
 ul.nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around; }
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  box-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: distribute; }
+
+.section-title span {
+  background: #fff;
+  position: relative; }
+
+.section-title:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: 3px;
+  width: 100%;
+  border-bottom: 4px solid #F4F6F7; }
+
+h2.section-title {
+  position: relative; }
+
+.center {
+  text-align: center; }
+
+@media screen and (min-width: 1400px) {
+  .container {
+    padding: 1em 3em; } }
+ul.filters {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  list-style-type: none;
+  margin: 2em 0; }
+
+.filters .current a, .filters .current a:hover {
+  color: #fff;
+  background: #345;
+  border-color: transparent; }
+
+.filters li a {
+  color: #b8c7ca;
+  font-size: 11px;
+  letter-spacing: .1em;
+  margin: 0px 8px;
+  padding: 7px 12px;
+  border: 1px solid #DDE4E6;
+  border-radius: 4px; }
+
+/*# sourceMappingURL=style.css.map */
