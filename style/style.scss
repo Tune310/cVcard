@@ -1,0 +1,23 @@
+.highlight {
+	font-size: 1em;
+    margin: .1em 0 .6em;
+    display: inline-block;
+    font-style: italic;
+    padding: 6px 10px;
+    background: #FAF46A;
+    color: #345;
+    color: rgba(0,0,0,.7);
+    border-radius: 4px;
+    line-height: 1;
+}
+
+header {
+	text-align: center;
+	width: 100%;
+	padding: 2em;
+}
+
+ul.nav {
+	display: flex;
+    justify-content: space-around;
+}
