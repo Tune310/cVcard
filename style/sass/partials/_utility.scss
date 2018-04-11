@@ -1,5 +1,5 @@
 .flex {
-	@include display(flex);
+	// @include display(flex);
 	
 }
 
@@ -12,3 +12,10 @@
 	max-width: 100% !important;
 }
 
+.two-third-width {
+	max-width: 66.666666666% !important;
+}
+
+.no-float {
+	float: none !important;
+}
