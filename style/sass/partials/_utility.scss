@@ -19,3 +19,11 @@
 .no-float {
 	float: none !important;
 }
+
+
+
+
+a:focus[data-filter]{
+    opacity:.8;
+    outline:none;
+}

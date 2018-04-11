@@ -17,6 +17,10 @@
 .no-float {
   float: none !important; }
 
+a:focus[data-filter] {
+  opacity: .8;
+  outline: none; }
+
 .highlight {
   font-size: 1em;
   margin: .1em 0 .6em;
@@ -108,7 +112,7 @@ ul.filters {
   border: 1px solid #DDE4E6;
   border-radius: 4px; }
 
-#portfolio ul {
+#portfolio .grid-item {
   display: -webkit-box;
   display: -moz-box;
   display: box;

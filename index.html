@@ -37,25 +37,25 @@
         <div class="wrapper">
         	<div class="container">
         		<h2 class="section-title center"><span>MY WORKS</span></h2>
-        		<ul id="filters" class="filters">
-                          <li class="current"><a href="#" data-filter="*">ALL</a></li>
-                          <li><a href="#" data-filter=".design">DESIGN</a></li>
-                          <li><a href="#" data-filter=".coding">CODING</a></li>
-                          <li><a href="#" data-filter=".logo">LOGO</a></li>
+        		
+                 <ul id="filters" class="grid filters">
+                          <li class="current"><a href="#" data-filter="*" tabindex="-1">all</a></li>
+                          <li><a href="#" data-filter=".design" tabindex="-1">design</a></li>
+                          <li><a href="#" data-filter=".coding" tabindex="-1">CODING</a></li>
+                          <li><a href="#" data-filter=".logo" tabindex="-1">LOGO</a></li>
                 </ul>
-
-                <section id="portfolio">
+                <section id="portfolio" class="portfolio-items media-grid grid">
 
                     
-                    <ul>
-                        <li class="three-column pic">
-                            <img src="style/images/01.jpg">
-                        </li>
-                        <li class="three-column caption">
-                            <h2>PERSONAL CV PROJECT</h2>
-                        </li>
+                    <ul class="grid-item design all">
+                            <li class="three-column pic">
+                                <img src="style/images/01.jpg">
+                            </li>
+                            <li class="three-column caption">
+                                <h2>PERSONAL CV PROJECT</h2>
+                            </li>
                     </ul>
-                    <ul>
+                    <ul class="grid-item a;;">
                         <li class="three-column pic">
                             <img src="style/images/02.jpg">
                         </li>
@@ -63,7 +63,7 @@
                             <h2>PERSONAL CV PROJECT</h2>
                         </li>
                     </ul>
-                    <ul>
+                    <ul class="grid-item all">
                         <li class="three-column pic">
                             <img src="style/images/03.jpg">
                         </li>
@@ -74,7 +74,7 @@
                 
 
                 
-                    <ul>
+                    <ul class="grid-item design all">
                         <li class="three-column pic">
                             <img src="style/images/04.jpg">
                         </li>
@@ -82,15 +82,15 @@
                             <h2>PERSONAL CV PROJECT</h2>
                         </li>
                     </ul>
-                    <ul>
-                        <li class="three-column pic">
+                    <ul class="grid-item">
+                        <li class="three-column pic all">
                             <img src="style/images/05.jpg">
                         </li>
                         <li class="three-column caption">
                             <h2>PERSONAL CV PROJECT</h2>
                         </li>
                     </ul>
-                    <ul>
+                    <ul class="grid-item">
                         <li class="three-column pic">
                             <img src="style/images/06.jpg">
                         </li>
@@ -101,7 +101,7 @@
                 
                
                 
-                    <ul>
+                    <ul class="grid-item">
                         <li class="three-column pic">
                             <img src="style/images/07.jpg">
                         </li>
@@ -109,7 +109,7 @@
                             <h2>PERSONAL CV PROJECT</h2>
                         </li>
                     </ul>
-                    <ul>
+                    <ul class="grid-item">
                         <li class="three-column pic">
                             <img src="style/images/08.jpg">
                         </li>
@@ -117,7 +117,7 @@
                             <h2>PERSONAL CV PROJECT</h2>
                         </li>
                     </ul>
-                    <ul>
+                    <ul data-filter="design" class="grid-item design">
                         <li class="three-column pic">
                             <img src="style/images/09.jpg">
                         </li>
@@ -127,7 +127,7 @@
                     </ul>
                 
 
-                    <ul>
+                    <ul data-filter="design" class="grid-item design">
                         <li class="three-column pic">
                             <img src="style/images/10.jpg">
                         </li>
@@ -135,7 +135,7 @@
                             <h2>PERSONAL CV PROJECT</h2>
                         </li>
                     </ul>
-                    <ul class="two-third-width no-float">
+                    <ul class="grid-item design two-third-width no-float">
                         <li class="three-column pic">
                             <img src="style/images/11.jpg">
                         </li>
@@ -152,7 +152,8 @@
     <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="scripts/isotope.pkgd.min.js"></script>
+    <script src="scripts/script.js"></script>
 
 </body>
 </html>
