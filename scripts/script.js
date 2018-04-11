@@ -40,3 +40,15 @@ $('a[data-filter=".logo"]').on('click', function(event){
 	  filter: '.logo'
 	});
 })
+
+var navItems = $("#filters").find('a');
+
+
+  for ( var i = 0; i < navItems.length; i++ ) (function(i){ 
+      navItems[i].onclick = function() {
+      console.log(navItems[i]);
+      console.log(this);
+      $("#filters a").removeClass('current');
+      $(this).fadeIn().addClass('current');
+   }
+  })(i);
