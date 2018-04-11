@@ -41,6 +41,10 @@ $('a[data-filter=".logo"]').on('click', function(event){
 	});
 })
 
+$('a[href^="#"]').on('click', function(e) {
+	e.preventDefault();
+});
+
 var navItems = $("#filters").find('a');
 
 
