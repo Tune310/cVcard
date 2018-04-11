@@ -80,3 +80,22 @@ ul.filters {
     border: 1px solid #DDE4E6;
     border-radius: 4px;
 }
+
+#portfolio {
+    ul {
+        @include display(flex);
+        @include flex-direction(column);
+        @include align-items(center);
+        max-width: 33%;
+        padding: 10px 20px;
+        height: 350px;
+    }
+
+    .flex {
+        width: 100%;
+    }
+}
+
+li.three-column.pic img {
+    width: 100%;
+}

@@ -1,10 +1,14 @@
 .flex {
 	@include display(flex);
-	width: 100;
+	
 }
 
 .three-column {
-	width: 33%;
 	@include display(flex);
 	text-align: center;
 }
+
+.max-width {
+	max-width: 100% !important;
+}
+
