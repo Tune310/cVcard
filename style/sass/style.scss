@@ -29,6 +29,16 @@ ul.nav {
     @include justify-content(space-around);
 }
 
+ul.nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    color: #D0DADC;
+    letter-spacing: -2px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2.7em;
+}
+
 .section-title span {
 	background: #fff;
 	position: relative;
@@ -142,3 +152,19 @@ li.three-column.pic img {
 #skin-select #toggle.active {
     background-position: 0 -40px;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.skin-part ul li a[href="css/skins/flat.css"]:active  {
+  background-color: green !important;
+}
+
+header.header:has(> #flat-skin.active) {
+    background-color: green !important;
+}
+
+// #flat-skin.active body{
+//     background-color: green;
+// }
