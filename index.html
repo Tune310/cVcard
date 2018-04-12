@@ -8,6 +8,8 @@
 
     <title>Reid cVcard</title>
 
+    <!-- Normalize CSS -->
+    <link href="./style/normalize.css" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -23,6 +25,21 @@
 </head>
 <body>
 	<header class="header">
+        <div id="skin-select" style="left: 0px;">
+            
+            <a id="toggle" class="active"></a>
+            
+            <div class="skin-part" data-linkclass="base-skin">
+                <h3>BASE STYLE</h3>
+                <ul>    
+                    <li><a href="#" class="">Default</a></li>
+                    <li><a href="css/skins/flat.css" class="active">Flat</a></li>
+                    <li><a href="css/skins/overlay.css" class="">Overlay</a></li>
+                    <li><a href="css/skins/overlay-bold.css" class="">Overlay Bold</a></li>
+                </ul>
+            </div>
+            
+        </div>
 		<img src="style/images/avatar.png" width="160" height="160"/>
 		<h1>Johnny Doe</h1>
 		<p class="highlight">Freelance Graphic Designer</p>
@@ -153,6 +170,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="scripts/isotope.pkgd.min.js"></script>
+    <script src="scripts/style.switcher.js"></script>
     <script src="scripts/script.js"></script>
 
 </body>
