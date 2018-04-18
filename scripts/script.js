@@ -1,4 +1,5 @@
-$(document).ready(function(){
+// jQuery Isotope load after the document is rendered on your page.
+$(window).load(function(){ 
 	$('.grid').isotope({
 	  // options
 	  itemSelector: '.grid-item',
@@ -40,6 +41,9 @@ $(document).ready(function(){
 		  filter: '.logo'
 		});
 	})
+});
+
+$(document).ready(function(){  
 
 	$('a[href^="#"]').on('click', function(e) {
 		e.preventDefault();
