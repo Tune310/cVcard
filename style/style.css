@@ -26,14 +26,6 @@ a:focus {
 a:focus[data-filter] {
   outline: none; }
 
-ul.nav li a:focus {
-  text-decoration: none;
-  background-color: white !important; }
-
-ul.nav li a:hover {
-  text-decoration: none;
-  background-color: white !important; }
-
 .highlight {
   font-size: 1em;
   margin: .1em 0 .6em;
@@ -90,6 +82,14 @@ ul.nav a {
   @media screen and (max-width: 767px) {
     ul.nav a {
       font-size: 1.7em; } }
+
+ul.nav a:hover {
+  text-decoration: none;
+  background-color: inherit !important; }
+
+ul.nav a:focus {
+  text-decoration: none;
+  background-color: inherit !important; }
 
 ul.nav a.active {
   color: #345; }
