@@ -14,7 +14,7 @@
 		content: ""; display: block; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAFUlEQVQIW2NkQAKMUPZ/IM0I44DFABJxAQQMGKylAAAAAElFTkSuQmCC); 
 		}
 	.header h1 {
-		margin: 0 0 .3em 0; font-size: 5.8em; line-height: 1; font-weight: 200; color: #fff; text-shadow: 0 1px 0 rgba(51, 51, 51, 0.36); letter-spacing: -3px; text-transform: uppercase; 
+		margin: 0 0 .3em 0; font-size: 5.8em; line-height: 1; font-weight: 200; color: #fff; text-shadow: 0 1px 0 rgba(51, 51, 51, 0.36); letter-spacing: 3px; text-transform: uppercase; 
 		}
 	.header p { 
 		color: #fff; font-size: 12px; letter-spacing: .04em; background: none; border: 1px solid #FFF; text-transform: uppercase; font-style: normal; padding: 10px 14px;
