@@ -130,6 +130,11 @@ ul.filters {
     border-radius: 4px;
 }
 
+.filters li a:hover {
+    color: #345;
+    border-color: #345;
+}
+
 #portfolio {
     .grid-item {
         @include display(flex);

@@ -26,6 +26,14 @@ a:focus {
 a:focus[data-filter] {
   outline: none; }
 
+ul.nav li a:focus {
+  text-decoration: none;
+  background-color: white !important; }
+
+ul.nav li a:hover {
+  text-decoration: none;
+  background-color: white !important; }
+
 .highlight {
   font-size: 1em;
   margin: .1em 0 .6em;
@@ -158,6 +166,10 @@ ul.filters {
   padding: 7px 12px;
   border: 1px solid #DDE4E6;
   border-radius: 4px; }
+
+.filters li a:hover {
+  color: #345;
+  border-color: #345; }
 
 #portfolio .grid-item {
   display: -webkit-box;
