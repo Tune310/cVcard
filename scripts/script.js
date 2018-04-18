@@ -4,8 +4,7 @@ $(document).ready(function(){
 	  itemSelector: '.grid-item',
 	  layoutMode: 'fitRows'
 	});
-
-
+	  
 	$('a[data-filter="*"]').on('click', function(event){
 		$('.grid').isotope({
 		  // options
